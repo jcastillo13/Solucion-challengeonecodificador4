@@ -1,0 +1,92 @@
+*{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 85%;
+}
+
+
+.logo{
+    padding-top:10px;
+    margin-left:10px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border:none;
+    color: #0A3871;
+    margin-top: 50px;
+    text-transform: lowercase;
+}
+::placeholder {color: #0A3871;}
+    .text-area:focus {
+        outline: none;
+    }
+
+    .mensaje{
+        background: white;
+        background-image: url("imagenes/coloured-robot-design_1148-9.png");
+        background-repeat:no-repeat;
+        border: none;
+        border-radius: 24px;
+        color: #0A3871;
+        margin-left: 98px;
+        margin-top: 20px;
+        padding-left: 20px;
+        position:fixed;
+    }
+    .mensaje:focus {
+        outline: none;
+    }
+
+    .botones{
+        display: flex;
+        margin-top: 18px;
+    }
+
+    .btn-desencriptar {
+        background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 30px;
+        width: 300px;
+    }
+
+    .btn-encriptar {
+        background: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: white;
+        cursor: pointer;
+        height: 67px;
+        width: 300px;
+    }
+
+    .copiar {
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 108px;
+        margin-top: 402px;
+        position: fixed;
+        width: 300px;
+    }
+
+    .informacion {
+        color: #405057;
+        font-size: 18px;
+
+    }
